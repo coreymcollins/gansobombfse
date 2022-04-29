@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "background": "var(--wp--preset--color--gbgold)",
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000"
+                },
+                {
+                    "name": "Gold",
+                    "slug": "gbgold",
+                    "color": "#ffcd3c"
+                }
+            ]
+        },
+        "typography": {
+            "dropCap": false
+        },
+        "custom": {
+            "spacing": {
+                "baseline": "2rem"
+            }
+        }
+    },
+    "styles": {
+        "spacing": {}
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Basic Header",
+            "area": "header"
+        }
+    ]
+}

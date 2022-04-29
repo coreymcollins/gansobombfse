@@ -1,0 +1,19 @@
+{
+	"name": "gansobomb",
+	"version": "1.0.0",
+	"description": "Ganso Bomb Full Site Editor Theme",
+	"main": "index.js",
+	"author": "Corey Collins",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"cssnano": "^5.1.7",
+		"esbuild": "^0.14.38",
+		"esbuild-postcss": "^0.0.4",
+		"postcss-nested": "^5.0.6",
+		"postcss-preset-env": "^7.4.4",
+		"postcss-strip-inline-comments": "^0.1.5"
+	},
+	"scripts": {
+		"build": "node esbuild.js"
+	}
+}
