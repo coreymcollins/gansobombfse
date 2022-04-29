@@ -1,2 +1,2 @@
-# gansobombfse
-A full site editing theme
+# Ganso Bomb
+A full site editing theme.
