@@ -30,16 +30,11 @@ add_action( 'after_theme_setup', 'gansobomb_setup' );
  * @author Corey Collins
  */
 function gansobomb_scripts() {
-	$asset_file_path = dirname( __DIR__ ) . '/build/index.asset.php';
 
-	if ( is_readable( $asset_file_path ) ) {
-		$asset_file = include $asset_file_path;
-	} else {
-		$asset_file = [
-			'version'      => '1.0.0',
-			'dependencies' => [ 'wp-polyfill' ],
-		];
-	}
+	$asset_file = [
+		'version'      => '1.0.0',
+		'dependencies' => [ 'wp-polyfill' ],
+	];
 
 	// Register styles & scripts.
 	wp_enqueue_style( 'gansobomb', get_stylesheet_directory_uri() . '/build/index.css', [], $asset_file['version'] );
